@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField]
-    GameObject miniGame;
-
+    [System.Serializable]
+    public enum INTERACTABLE_TYPE { item, minigame}
+    
+    
     GameObject highlight;
+
+    [SerializeField]
+    INTERACTABLE_TYPE interactableType;
 
     private void OnEnable()
     {
@@ -30,8 +34,8 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    public void PlayMiniGame()
+    public INTERACTABLE_TYPE GetInteractableType()
     {
-        miniGame.SetActive(true);
+        return interactableType;
     }
 }

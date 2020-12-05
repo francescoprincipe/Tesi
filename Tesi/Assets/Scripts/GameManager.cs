@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get { return _instance; } }
 
     [SerializeField]
-    Transform[] spawnPoints;
+    public Transform[] spawnPoints;
 
 
     private void Awake()

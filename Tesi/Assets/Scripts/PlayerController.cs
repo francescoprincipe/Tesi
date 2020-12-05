@@ -15,6 +15,11 @@ public class PlayerController : MonoBehaviour, IPunObservable
     Animator myAnim;
     [SerializeField] Collider myCollider;
     Camera myCamera;
+    GameObject myHUD; //GameObject that contain the canvas for the HUD
+
+    //Inventory
+    [SerializeField]
+    Inventory inventory;
 
     //Input
     [SerializeField] InputAction WASD;
@@ -32,6 +37,10 @@ public class PlayerController : MonoBehaviour, IPunObservable
     //Networking
     PhotonView myPV;
 
+    //Pause
+    [SerializeField] InputAction PAUSE;
+    GameObject myPause;
+
 
 
     private void OnEnable()
@@ -39,6 +48,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
         WASD.Enable();
         MOUSE.Enable();
         INTERACTION.Enable();
+        PAUSE.Enable();
     }
 
     private void OnDisable()
@@ -46,11 +56,13 @@ public class PlayerController : MonoBehaviour, IPunObservable
         WASD.Disable();
         MOUSE.Disable();
         INTERACTION.Disable();
+        PAUSE.Disable();
     }
 
     void Awake()
     {
         INTERACTION.performed += Interact;
+        PAUSE.performed += Pause;
     }
 
     void Start()
@@ -68,6 +80,9 @@ public class PlayerController : MonoBehaviour, IPunObservable
         myAvatar = transform.GetChild(0); //Takes the Sprite transform
         myAnim = GetComponent<Animator>();
         myCamera = transform.GetChild(1).GetComponent<Camera>(); //Takes the Camera component from the Camera game object attached to the player
+        myHUD = transform.GetChild(2).gameObject;
+        myPause = GameObject.FindGameObjectWithTag("Pause");
+
         if (!myPV.IsMine)
         {
             myCamera.gameObject.SetActive(false);
@@ -123,7 +138,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
 
     void Interact(InputAction.CallbackContext context)
     {
-        if(context.phase == InputActionPhase.Performed)
+        if(context.phase == InputActionPhase.Performed && myPV.IsMine)
         {
             RaycastHit hit;
             Ray ray = myCamera.ScreenPointToRay(mousePositionInput);
@@ -133,10 +148,21 @@ public class PlayerController : MonoBehaviour, IPunObservable
                 {
                     if (!hit.transform.GetChild(0).gameObject.activeInHierarchy) // If Highlight component of the Interactable is not active return
                         return;
-                    Interactable temp = hit.transform.GetComponent<Interactable>();
-                    temp.PlayMiniGame();
+
+                    Interactable hitObject = hit.transform.GetComponent<Interactable>();
+                    Interactable.INTERACTABLE_TYPE interactableType = hitObject.GetInteractableType();
+ 
                 }
             }
+        }
+    }
+
+    void Pause(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed && myPV.IsMine)
+        {
+            myPause.GetComponent<PauseMenu>().TogglePause();
+
         }
     }
 }
