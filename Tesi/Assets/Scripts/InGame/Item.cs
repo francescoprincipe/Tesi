@@ -11,7 +11,7 @@ public class Item :  Interactable
 
     public string GetName()
     {
-        return name;
+        return itemName;
     }
 
     public Sprite GetInventorySprite()

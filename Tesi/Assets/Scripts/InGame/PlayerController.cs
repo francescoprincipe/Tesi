@@ -86,6 +86,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
         if (!myPV.IsMine)
         {
             myCamera.gameObject.SetActive(false);
+            myHUD.SetActive(false);
             return;
         }
 
@@ -97,10 +98,10 @@ public class PlayerController : MonoBehaviour, IPunObservable
         //Mirror all avatars on change direction
         myAvatar.localScale = new Vector2(direction, 1);
 
-        if (!myPV.IsMine)
+        if (!myPV.IsMine || PauseMenu.gamePaused)
             return;
 
-        //Get input
+        //Get movement input
         movementInput = WASD.ReadValue<Vector2>();
 
         //Change local avatar direction parameter on received input
@@ -138,7 +139,8 @@ public class PlayerController : MonoBehaviour, IPunObservable
 
     void Interact(InputAction.CallbackContext context)
     {
-        if(context.phase == InputActionPhase.Performed && myPV.IsMine)
+
+        if(context.phase == InputActionPhase.Performed && myPV.IsMine && !PauseMenu.gamePaused)
         {
             RaycastHit hit;
             Ray ray = myCamera.ScreenPointToRay(mousePositionInput);
@@ -146,11 +148,16 @@ public class PlayerController : MonoBehaviour, IPunObservable
             {
                 if(hit.transform.tag == "Interactable")
                 {
+                    Debug.DrawLine(hit.point, mousePositionInput, Color.red);
+                    Debug.Log(hit.point);
+
                     if (!hit.transform.GetChild(0).gameObject.activeInHierarchy) // If Highlight component of the Interactable is not active return
                         return;
 
                     Interactable hitObject = hit.transform.GetComponent<Interactable>();
                     Interactable.INTERACTABLE_TYPE interactableType = hitObject.GetInteractableType();
+                    PerformInteraction(hit.transform, interactableType);
+
  
                 }
             }
@@ -163,6 +170,25 @@ public class PlayerController : MonoBehaviour, IPunObservable
         {
             myPause.GetComponent<PauseMenu>().TogglePause();
 
+        }
+    }
+
+    void ToggleHUD()
+    {
+        myHUD.SetActive(!PauseMenu.gamePaused);
+    }
+
+    void PerformInteraction(Transform target, Interactable.INTERACTABLE_TYPE type)
+    {
+        switch (type)
+        {
+            case Interactable.INTERACTABLE_TYPE.item:
+                Item targetItem = target.GetComponent<Item>();
+                string name = targetItem.GetName();
+                Sprite sprite = targetItem.GetInventorySprite();
+                inventory.AddItem(name, sprite);
+                break;
+            default: break;
         }
     }
 }

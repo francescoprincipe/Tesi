@@ -12,6 +12,11 @@ public class PauseMenu : MonoBehaviourPunCallbacks
     [SerializeField]
     GameObject pauseMenuUI;
 
+    public void Awake()
+    {
+        gamePaused = false;
+    }
+
     public void TogglePause()
     {
         if (disconnecting)
@@ -25,6 +30,7 @@ public class PauseMenu : MonoBehaviourPunCallbacks
     public void Quit()
     {
         disconnecting = true;
+        gamePaused = false;
         PhotonNetwork.LeaveRoom();
     }
 

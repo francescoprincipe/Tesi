@@ -20,6 +20,7 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Player in");
         if(other.tag == "Player")
         {
             highlight.SetActive(true);
