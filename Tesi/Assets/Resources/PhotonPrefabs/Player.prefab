@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: -8434174247668308843}
   - component: {fileID: 4298145247467137837}
   - component: {fileID: 6709248148620428890}
+  - component: {fileID: -1093671833896482473}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -265,7 +266,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 38af34c4-17b9-445d-91a8-d9bac9a229e0
+      m_Id: b3fa484d-664c-4e0e-b7cb-8d716a1da053
       m_Path: <Mouse>/leftButton
       m_Interactions: 
       m_Processors: 
@@ -369,6 +370,18 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 5
+--- !u!114 &-1093671833896482473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846996259765930159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb842967350d0843b02eca72621b2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2846996261245946250
 GameObject:
   m_ObjectHideFlags: 0

@@ -63,23 +63,24 @@ public class PlayerController : MonoBehaviour, IPunObservable
     {
         INTERACTION.performed += Interact;
         PAUSE.performed += Pause;
+
+        myPV = GetComponent<PhotonView>();
+        myCamera = transform.GetChild(1).GetComponent<Camera>(); //Takes the Camera component from the Camera game object attached to the player
+        if (myPV.IsMine)
+        {
+            localPlayer = this;
+        }
     }
 
     void Start()
    
     {
-        myPV = GetComponent<PhotonView>();
-
-        if (myPV.IsMine)
-        {
-            localPlayer = this;
-        }
 
         //Initialization
         myRB = GetComponent<Rigidbody>();
         myAvatar = transform.GetChild(0); //Takes the Sprite transform
         myAnim = GetComponent<Animator>();
-        myCamera = transform.GetChild(1).GetComponent<Camera>(); //Takes the Camera component from the Camera game object attached to the player
+
         myHUD = transform.GetChild(2).gameObject;
         myPause = GameObject.FindGameObjectWithTag("Pause");
 
@@ -125,6 +126,16 @@ public class PlayerController : MonoBehaviour, IPunObservable
         myRB.velocity = movementInput * movementSpeed;
     }
 
+    public Camera GetCamera()
+    {
+        return myCamera;
+    }
+
+    public PhotonView GetPhotonView()
+    {
+        return myPV;
+    }
+
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if(stream.IsWriting)
@@ -148,8 +159,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
             {
                 if(hit.transform.tag == "Interactable")
                 {
-                    Debug.DrawLine(hit.point, mousePositionInput, Color.red);
-                    Debug.Log(hit.point);
+                    Debug.DrawRay(myCamera.ScreenToWorldPoint (mousePositionInput), hit.point, Color.green, 5f);
 
                     if (!hit.transform.GetChild(0).gameObject.activeInHierarchy) // If Highlight component of the Interactable is not active return
                         return;
@@ -161,6 +171,19 @@ public class PlayerController : MonoBehaviour, IPunObservable
  
                 }
             }
+        }
+    }
+    void PerformInteraction(Transform target, Interactable.INTERACTABLE_TYPE type)
+    {
+        switch (type)
+        {
+            case Interactable.INTERACTABLE_TYPE.item:
+                Item targetItem = target.GetComponent<Item>();
+                string name = targetItem.GetName();
+                Sprite sprite = targetItem.GetInventorySprite();
+                inventory.AddItem(name, sprite);
+                break;
+            default: break;
         }
     }
 
@@ -178,17 +201,5 @@ public class PlayerController : MonoBehaviour, IPunObservable
         myHUD.SetActive(!PauseMenu.gamePaused);
     }
 
-    void PerformInteraction(Transform target, Interactable.INTERACTABLE_TYPE type)
-    {
-        switch (type)
-        {
-            case Interactable.INTERACTABLE_TYPE.item:
-                Item targetItem = target.GetComponent<Item>();
-                string name = targetItem.GetName();
-                Sprite sprite = targetItem.GetInventorySprite();
-                inventory.AddItem(name, sprite);
-                break;
-            default: break;
-        }
-    }
+
 }
