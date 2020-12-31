@@ -6,7 +6,11 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
-	public Dialogue dialogue;
+	public Dialogue questDialogue;
+	public Dialogue finalDialogue;
+
+	private Dialogue activeDialogue;
+
 	public GameObject dialogueCanvas;
 	public GameObject dialogueTextArea;
 	public GameObject buttonTextObject;
@@ -21,10 +25,12 @@ public class DialogueManager : MonoBehaviour {
 		sentences = new Queue<string>();
 		dialogueText = dialogueTextArea.GetComponent<TextMeshProUGUI>();
 		buttonText = buttonTextObject.GetComponent<TextMeshProUGUI>();
+		if (activeDialogue == null)
+			activeDialogue = finalDialogue;
 	}
 	void OnEnable () {
 		buttonText.text = "CONTINUA...";
-		StartDialogue(dialogue);
+		StartDialogue(activeDialogue);
 	}
 
 	public void StartDialogue (Dialogue dialogue)
@@ -77,6 +83,11 @@ public class DialogueManager : MonoBehaviour {
 	{
 		Debug.Log("End dialogue");
 		dialogueCanvas.SetActive(false);
+	}
+
+	public void SetDialogue(bool questCompleted)
+	{
+		activeDialogue = questCompleted ? finalDialogue : questDialogue;
 	}
 
 }

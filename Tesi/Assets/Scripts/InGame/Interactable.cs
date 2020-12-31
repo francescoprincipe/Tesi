@@ -4,17 +4,17 @@ using System.Linq;
 using UnityEngine;
 using Photon.Pun;
 
-public class Interactable : MonoBehaviour
+public abstract class Interactable : MonoBehaviour
 {
     [System.Serializable]
     public enum INTERACTABLE_TYPE { item, minigame}
     
     
-    GameObject highlight;
-    GameObject dialogueBox;
-    GameObject dialogueManager;
+    protected GameObject highlight;
+    protected GameObject dialogueBox;
+    protected GameObject dialogueManager;
     PhotonView myPV;
-    //int playerCounter;
+
 
 
     [SerializeField]
@@ -26,48 +26,27 @@ public class Interactable : MonoBehaviour
         dialogueBox  = transform.GetChild(1).gameObject;
         dialogueManager = transform.GetChild(2).gameObject;
         myPV = GetComponent<PhotonView>();
-        //playerCounter = 0;
+
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    public virtual void OnTriggerEnter(Collider other)
     {
 
 
-        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider))
+        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider) && other.gameObject.layer == 0)
         {
             other.GetComponent<DisplayInteractable>().DisplayPlayerUI(true, highlight, dialogueBox, dialogueManager);
-            /*
-            playerCounter++;
-           
-            highlight.SetActive(true);
-            dialogueManager.SetActive(true);
-            dialogueBox.SetActive(true);
-            */
-
         }
         
     }
 
-    private void OnTriggerExit(Collider other)
+    public virtual void OnTriggerExit(Collider other)
     {
 
- 
-        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider))
+        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider) && other.gameObject.layer == 0)
         {
-
             other.GetComponent<DisplayInteractable>().DisplayPlayerUI(false, highlight, dialogueBox, dialogueManager);
-            /*
-            playerCounter--;
-            if (playerCounter == 0)
-            {
-
-                dialogueManager.SetActive(false);
-                highlight.SetActive(false);
-                dialogueBox.SetActive(false);
-                
-            }
-            */
         }
         
     }

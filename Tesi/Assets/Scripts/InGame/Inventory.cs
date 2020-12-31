@@ -91,4 +91,17 @@ public class Inventory
         //Remove items from list
         itemList.RemoveAll(x => x.name == name && x.count == 0);
     }
+
+    public bool HaveItem(string itemName)
+    {
+        foreach(InventoryItem item in itemList)
+        {
+            if(item.name == itemName)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

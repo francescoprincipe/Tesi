@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
     //Input
     [SerializeField] InputAction WASD;
     Vector2 movementInput;
-
+    bool canMove = true;
     //Movement
     [SerializeField] float movementSpeed;
     float direction = 1;
@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour, IPunObservable
     //Pause
     [SerializeField] InputAction PAUSE;
     GameObject myPause;
-
 
 
     private void OnEnable()
@@ -99,7 +98,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
         //Mirror all avatars on change direction
         myAvatar.localScale = new Vector2(direction, 1);
 
-        if (!myPV.IsMine || PauseMenu.gamePaused)
+        if (!myPV.IsMine || PauseMenu.gamePaused || !canMove)
             return;
 
         //Get movement input
@@ -126,16 +125,32 @@ public class PlayerController : MonoBehaviour, IPunObservable
         myRB.velocity = movementInput * movementSpeed;
     }
 
+    //Getters
     public Camera GetCamera()
     {
+        if (!myPV.IsMine)
+            return null;
+
         return myCamera;
     }
 
     public PhotonView GetPhotonView()
     {
+        if (!myPV.IsMine)
+            return null;
+
         return myPV;
     }
 
+    public Inventory GetInventory()
+    {
+        if (!myPV.IsMine)
+            return null;
+
+        return inventory;
+    }
+
+    //IPUNOBservable Method
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if(stream.IsWriting)
@@ -148,10 +163,11 @@ public class PlayerController : MonoBehaviour, IPunObservable
         }
     }
 
+    //Actions binded to keys
     void Interact(InputAction.CallbackContext context)
     {
 
-        if(context.phase == InputActionPhase.Performed && myPV.IsMine && !PauseMenu.gamePaused)
+        if(context.phase == InputActionPhase.Performed && myPV.IsMine && !PauseMenu.gamePaused && canMove)
         {
             RaycastHit hit;
             Ray ray = myCamera.ScreenPointToRay(mousePositionInput);
@@ -183,6 +199,14 @@ public class PlayerController : MonoBehaviour, IPunObservable
                 Sprite sprite = targetItem.GetInventorySprite();
                 inventory.AddItem(name, sprite);
                 break;
+
+            case Interactable.INTERACTABLE_TYPE.minigame:
+                Minigame targetMinigame = target.GetComponent<Minigame>();
+                if (!targetMinigame.CheckQuestCompleted())
+                    return;
+                Debug.Log("Quest completata");
+                targetMinigame.PlayMinigame();
+                break;
             default: break;
         }
     }
@@ -196,10 +220,22 @@ public class PlayerController : MonoBehaviour, IPunObservable
         }
     }
 
-    void ToggleHUD()
+    //Utility functions
+    public void ToggleHUD(bool active)
     {
-        myHUD.SetActive(!PauseMenu.gamePaused);
+        myHUD.SetActive(active);
     }
 
+    public void ToggleInput(bool active)
+    {
+        canMove = active;
+    }
+
+    public void CheckQuest(string item, ref bool questCompleted)
+    {
+        if (!myPV.IsMine)
+            return;
+        questCompleted = inventory.HaveItem(item);
+    }
 
 }
