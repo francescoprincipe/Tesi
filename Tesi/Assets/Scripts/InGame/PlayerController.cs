@@ -1,6 +1,7 @@
 ﻿using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SocialPlatforms;
@@ -18,8 +19,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
     GameObject myHUD; //GameObject that contain the canvas for the HUD
 
     //Inventory
-    [SerializeField]
-    Inventory inventory;
+    [SerializeField] Inventory inventory;
 
     //Input
     [SerializeField] InputAction WASD;
@@ -41,6 +41,17 @@ public class PlayerController : MonoBehaviour, IPunObservable
     [SerializeField] InputAction PAUSE;
     GameObject myPause;
 
+    //Chat
+    [SerializeField] InputAction CHATMENU;
+    [SerializeField] GameObject myChatMenu;
+    bool chatMenuEnabled = false;
+    [SerializeField] string[] sentences;
+    [SerializeField] GameObject myChatCanvasObject;
+    [SerializeField] GameObject myDialogueTextAreaObject;
+    TextMeshProUGUI myDialogueTextArea;
+    int sentenceNumber = -1;
+    bool showingMessage = false;
+
 
     private void OnEnable()
     {
@@ -48,6 +59,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
         MOUSE.Enable();
         INTERACTION.Enable();
         PAUSE.Enable();
+        CHATMENU.Enable();
     }
 
     private void OnDisable()
@@ -56,12 +68,14 @@ public class PlayerController : MonoBehaviour, IPunObservable
         MOUSE.Disable();
         INTERACTION.Disable();
         PAUSE.Disable();
+        CHATMENU.Disable();
     }
 
     void Awake()
     {
         INTERACTION.performed += Interact;
         PAUSE.performed += Pause;
+        CHATMENU.performed += ToggleChatMenu;
 
         myPV = GetComponent<PhotonView>();
         myCamera = transform.GetChild(1).GetComponent<Camera>(); //Takes the Camera component from the Camera game object attached to the player
@@ -82,6 +96,7 @@ public class PlayerController : MonoBehaviour, IPunObservable
 
         myHUD = transform.GetChild(2).gameObject;
         myPause = GameObject.FindGameObjectWithTag("Pause");
+        myDialogueTextArea = myDialogueTextAreaObject.GetComponent<TextMeshProUGUI>();
 
         if (!myPV.IsMine)
         {
@@ -95,8 +110,14 @@ public class PlayerController : MonoBehaviour, IPunObservable
 
     void Update()
     {
+
         //Mirror all avatars on change direction
         myAvatar.localScale = new Vector2(direction, 1);
+
+        if(sentenceNumber != -1 && !showingMessage )
+        {
+            StartCoroutine(ShowSentence());
+        }
 
         if (!myPV.IsMine || PauseMenu.gamePaused || !canMove)
             return;
@@ -150,16 +171,24 @@ public class PlayerController : MonoBehaviour, IPunObservable
         return inventory;
     }
 
+
+
     //IPUNOBservable Method
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if(stream.IsWriting)
         {
             stream.SendNext(direction);
+            //Debug.Log("Sent direction " + myPV.ViewID);
+            stream.SendNext(sentenceNumber);
+            Debug.Log("Sent sentence number " + sentenceNumber +" "+ myPV.ViewID );
         }
         else
         {
-            direction = (float)stream.ReceiveNext();
+            this.direction = (float)stream.ReceiveNext();
+            //Debug.Log("Received direction " + myPV.ViewID);
+            this.sentenceNumber = (int)stream.ReceiveNext();
+            Debug.Log("Received sentence number " + sentenceNumber + " " + myPV.ViewID);
         }
     }
 
@@ -218,6 +247,32 @@ public class PlayerController : MonoBehaviour, IPunObservable
             myPause.GetComponent<PauseMenu>().TogglePause();
 
         }
+    }
+
+    void ToggleChatMenu(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed && myPV.IsMine)
+        {
+            chatMenuEnabled = !chatMenuEnabled;
+            myChatMenu.SetActive(chatMenuEnabled);
+        }
+    }
+
+    //Chat functions 
+    public void SetSentence(int number)
+    {
+        sentenceNumber = number - 1;
+    }
+
+    public IEnumerator ShowSentence()
+    {
+        showingMessage = true;
+        myDialogueTextArea.text = sentences[sentenceNumber];
+        myChatCanvasObject.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        myChatCanvasObject.SetActive(false);
+        sentenceNumber = -1;
+        showingMessage = false;
     }
 
     //Utility functions
