@@ -35,7 +35,16 @@ public class MyPhotonPlayer : MonoBehaviour
 
         if (myPV.IsMine)
         {
-            myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), GameManager.Instance.spawnPoints[myNumberInRoom].position, Quaternion.identity);
+            if (OptionsManager.Instance.characterSelected == 0)
+            {
+                myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerMale"), GameManager.Instance.spawnPoints[myNumberInRoom].position, Quaternion.identity);
+            }
+            else
+            {
+                myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerFemale"), GameManager.Instance.spawnPoints[myNumberInRoom].position, Quaternion.identity);
+            }
+
+            //Assegnazione
             foreach(GameObject interactable in interactables)
             {
                 interactable.transform.GetChild(1).GetComponent<Canvas>().worldCamera = PlayerController.localPlayer.GetCamera();

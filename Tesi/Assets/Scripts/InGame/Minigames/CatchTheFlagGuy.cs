@@ -84,11 +84,12 @@ public class CatchTheFlagGuy : MonoBehaviour
     {
         while (true)
         {
+            yield return new WaitForSeconds(runningRateBot);
             if (startGame && !PauseMenu.gamePaused)
             {
                 KeepRunning();
             }
-            yield return new WaitForSeconds(runningRateBot);
+            
         }
     }
     private void KeepRunning()
@@ -119,6 +120,8 @@ public class CatchTheFlagGuy : MonoBehaviour
     {
         endGame = false;
         gameObject.transform.position = startingPositionObject.transform.position;
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, 0);
+
         if (!human)
         {
             StopAllCoroutines();

@@ -11,6 +11,9 @@ TagManager:
   - Minigame
   - MinigamePlayer
   - Floor
+  - CharactersHolder
+  - OptionsManager
+  - AudioManager
   layers:
   - Default
   - TransparentFX
