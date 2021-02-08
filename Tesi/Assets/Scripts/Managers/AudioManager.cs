@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Sound
@@ -81,6 +82,11 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     private string menuSoundName;
 
+    [SerializeField]
+    private string gameSoundName;
+
+    public float masterVolume = 0.5f;
+
 
     private void Awake()
     {
@@ -97,6 +103,15 @@ public class AudioManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this);
         }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     void Start()
@@ -206,10 +221,27 @@ public class AudioManager : MonoBehaviour
         {
             sounds[i].SetVolume(newVolume);
         }
+
+        masterVolume = newVolume;
         return;
     }
 
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.name == "Menu")
+        {
+            StopSound(gameSoundName);
+            PlayBackgroundSound(menuSoundName);
+            SetSoundVolume(menuSoundName, masterVolume);
+        }
 
+        if (scene.name == "Game")
+        {
+            StopSound(menuSoundName);
+            PlayBackgroundSound(gameSoundName);
+            SetSoundVolume(gameSoundName, masterVolume);
+        }
+    }
 }
 
 

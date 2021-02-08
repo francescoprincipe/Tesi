@@ -102,6 +102,7 @@ public class PaperPlane : MonoBehaviour
         timerText.text = "TEMPO: 0s";
         timeElapsed = 0;
         this.transform.position = startingPositionObject.transform.position;
+        this.transform.rotation = Quaternion.identity;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

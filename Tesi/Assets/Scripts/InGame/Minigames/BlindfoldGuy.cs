@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using System.Linq;
 
 public class BlindfoldGuy : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class BlindfoldGuy : MonoBehaviour
     private List<GameObject> targetsFound;
     private int targetsCounter;
     [SerializeField] private List<GameObject> targets;
+    [SerializeField] private List<GameObject> startingPositions;
 
     [SerializeField] private GameObject counterTextObject;
     private TextMeshProUGUI counterText;
@@ -62,7 +64,8 @@ public class BlindfoldGuy : MonoBehaviour
             direction = Mathf.Sign(movementInput.x);
         }
 
-       // myAnim.SetFloat("Speed", movementInput.magnitude);
+        myAnim.SetFloat("Speed", movementInput.magnitude);
+        // myAnim.SetFloat("Speed", movementInput.magnitude);
     }
 
     private void FixedUpdate()
@@ -79,6 +82,14 @@ public class BlindfoldGuy : MonoBehaviour
         targetsCounter = 0;
         counterText.text = "AMICI TROVATI: 0";
         this.transform.position = startingPositionObject.transform.position;
+        int c = 0;
+        var rnd = new System.Random();
+        List<GameObject> result = new List<GameObject>(startingPositions.OrderBy(item => rnd.Next()));
+        foreach (GameObject target in targets)
+        {
+            target.transform.position = result[c].transform.position;
+            c++;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
