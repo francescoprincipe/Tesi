@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: 25b4a1575d57e104e9bd10ff663299c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5632224391172163456
+    second: girl_dead_spritesheet_0
+  - first:
+      213: 3216542570778617975
+    second: girl_dead_spritesheet_1
+  - first:
+      213: -6186974410700428191
+    second: girl_dead_spritesheet_2
+  - first:
+      213: 9154796360007019912
+    second: girl_dead_spritesheet_3
+  - first:
+      213: -7602884212258156271
+    second: girl_dead_spritesheet_4
+  - first:
+      213: -8401243090029139748
+    second: girl_dead_spritesheet_5
+  - first:
+      213: 1352677970787261250
+    second: girl_dead_spritesheet_6
+  - first:
+      213: 6645377068454015989
+    second: girl_dead_spritesheet_7
+  - first:
+      213: -3672055747529716334
+    second: girl_dead_spritesheet_8
+  - first:
+      213: -1094826626421769198
+    second: girl_dead_spritesheet_9
+  - first:
+      213: 7036648085691774236
+    second: girl_dead_spritesheet_10
+  - first:
+      213: -4753648149766939761
+    second: girl_dead_spritesheet_11
+  - first:
+      213: -2782734202171832404
+    second: girl_dead_spritesheet_12
+  - first:
+      213: -2574208307832014289
+    second: girl_dead_spritesheet_13
+  - first:
+      213: -6766984668629281324
+    second: girl_dead_spritesheet_14
+  - first:
+      213: 2522183612671938767
+    second: girl_dead_spritesheet_15
+  - first:
+      213: -102317186759363229
+    second: girl_dead_spritesheet_16
+  - first:
+      213: -5814439807177101782
+    second: girl_dead_spritesheet_17
+  - first:
+      213: -3425258218964947282
+    second: girl_dead_spritesheet_18
+  - first:
+      213: 8492367450093379945
+    second: girl_dead_spritesheet_19
+  - first:
+      213: -7903921142865144719
+    second: girl_dead_spritesheet_20
+  - first:
+      213: -1253927189729798293
+    second: girl_dead_spritesheet_21
+  - first:
+      213: -7845305581023120729
+    second: girl_dead_spritesheet_22
+  - first:
+      213: -3986869509368520676
+    second: girl_dead_spritesheet_23
+  - first:
+      213: -8722758454871304095
+    second: girl_dead_spritesheet_24
+  - first:
+      213: -3989131699644764354
+    second: girl_dead_spritesheet_25
+  - first:
+      213: 7310296190392833845
+    second: girl_dead_spritesheet_26
+  - first:
+      213: -8323767424470259151
+    second: girl_dead_spritesheet_27
+  - first:
+      213: 6566453898287275473
+    second: girl_dead_spritesheet_28
+  - first:
+      213: 6293331546518614721
+    second: girl_dead_spritesheet_29
+  - first:
+      213: 7811950119043930536
+    second: girl_dead_spritesheet_0
+  - first:
+      213: 4220960068093450316
+    second: girl_dead_spritesheet_1
+  - first:
+      213: -6802345910999125575
+    second: girl_dead_spritesheet_2
+  - first:
+      213: -4384156251548373758
+    second: girl_dead_spritesheet_3
+  - first:
+      213: -926388013931433567
+    second: girl_dead_spritesheet_4
+  - first:
+      213: -4934499545667946127
+    second: girl_dead_spritesheet_5
+  - first:
+      213: -687461171477195768
+    second: girl_dead_spritesheet_6
+  - first:
+      213: 8017241572558844153
+    second: girl_dead_spritesheet_7
+  - first:
+      213: 8355957061105111208
+    second: girl_dead_spritesheet_8
+  - first:
+      213: 3394873645108748208
+    second: girl_dead_spritesheet_9
+  - first:
+      213: 7052523964878754142
+    second: girl_dead_spritesheet_10
+  - first:
+      213: 4306515635570452175
+    second: girl_dead_spritesheet_11
+  - first:
+      213: 6612285929604643111
+    second: girl_dead_spritesheet_12
+  - first:
+      213: -5470688344418486489
+    second: girl_dead_spritesheet_13
+  - first:
+      213: 5005614584565483206
+    second: girl_dead_spritesheet_14
+  - first:
+      213: -5638960890025219537
+    second: girl_dead_spritesheet_15
+  - first:
+      213: -3212251267160034511
+    second: girl_dead_spritesheet_16
+  - first:
+      213: -2720163598285841484
+    second: girl_dead_spritesheet_17
+  - first:
+      213: -8275580492351258432
+    second: girl_dead_spritesheet_18
+  - first:
+      213: 1942803956483433706
+    second: girl_dead_spritesheet_19
+  - first:
+      213: -3698619617216285216
+    second: girl_dead_spritesheet_20
+  - first:
+      213: 2074699713890210445
+    second: girl_dead_spritesheet_21
+  - first:
+      213: -5756989247315520679
+    second: girl_dead_spritesheet_22
+  - first:
+      213: -8674481823287752709
+    second: girl_dead_spritesheet_23
+  - first:
+      213: -4196323561738192328
+    second: girl_dead_spritesheet_24
+  - first:
+      213: -4547381541179811878
+    second: girl_dead_spritesheet_25
+  - first:
+      213: -6434819534663011646
+    second: girl_dead_spritesheet_26
+  - first:
+      213: 7962649448548522301
+    second: girl_dead_spritesheet_27
+  - first:
+      213: -7814629380192284369
+    second: girl_dead_spritesheet_28
+  - first:
+      213: 4684622904173562973
+    second: girl_dead_spritesheet_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2060
+        width: 317
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91fa86e3f996c60800000000000000
+      internalID: 7811950119043930536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 2053
+        width: 333
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4891dd71dcd39a30800000000000000
+      internalID: 4220960068093450316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2052
+        width: 346
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f09f2f663991a0800000000000000
+      internalID: -6802345910999125575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 2055
+        width: 358
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20da6a21e195823c0800000000000000
+      internalID: -4384156251548373758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2057
+        width: 368
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1ff61720fc423f0800000000000000
+      internalID: -926388013931433567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 2057
+        width: 359
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179b22caec2258bb0800000000000000
+      internalID: -4934499545667946127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1555
+        width: 350
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8045a35f4b5a576f0800000000000000
+      internalID: -687461171477195768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1555
+        width: 339
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f03ddaabb6f24f60800000000000000
+      internalID: 8017241572558844153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1555
+        width: 328
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a05691eca256f370800000000000000
+      internalID: 8355957061105111208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1555
+        width: 321
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfda0ae7930d1f20800000000000000
+      internalID: 3394873645108748208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 1555
+        width: 313
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5117802e299fd160800000000000000
+      internalID: 7052523964878754142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1555
+        width: 320
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6a7d55721d3cb30800000000000000
+      internalID: 4306515635570452175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1053
+        width: 329
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f563050f83cb50800000000000000
+      internalID: 6612285929604643111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1053
+        width: 335
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f01a8fe53414b0800000000000000
+      internalID: -5470688344418486489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1052
+        width: 344
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64a8b91f3877540800000000000000
+      internalID: 5005614584565483206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1050
+        width: 361
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae9bf62f26eb1b0800000000000000
+      internalID: -5638960890025219537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1043
+        width: 371
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133b0a3ed7acb63d0800000000000000
+      internalID: -3212251267160034511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 1038
+        width: 379
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb59319e99004ad0800000000000000
+      internalID: -2720163598285841484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 531
+        width: 380
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0404b536b372d80800000000000000
+      internalID: -8275580492351258432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 531
+        width: 377
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42b6ea7e936fa10800000000000000
+      internalID: 1942803956483433706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 532
+        width: 386
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e53884ed0ddbacc0800000000000000
+      internalID: -3698619617216285216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 536
+        width: 402
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82d706c560dacc10800000000000000
+      internalID: 2074699713890210445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 522
+        width: 413
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953d30a08c01b10b0800000000000000
+      internalID: -5756989247315520679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 520
+        width: 419
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c958bdbc0e9780800000000000000
+      internalID: -8674481823287752709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 17
+        width: 422
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3ef324f9a3c5c0800000000000000
+      internalID: -4196323561738192328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 13
+        width: 426
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad71fc3d49474e0c0800000000000000
+      internalID: -4547381541179811878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 11
+        width: 426
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2baa2f9bde2b6a0800000000000000
+      internalID: -6434819534663011646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 8
+        width: 428
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39d1bb4c73018e60800000000000000
+      internalID: 7962649448548522301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 5
+        width: 426
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21de4e7bfbdc8390800000000000000
+      internalID: -7814629380192284369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_dead_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 5
+        width: 426
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c8ced06bf130140800000000000000
+      internalID: 4684622904173562973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

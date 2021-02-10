@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 0ec76fd6f5a44344380be2b6e3c513e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2153574078257915295
+    second: boy_run_spritesheet_0
+  - first:
+      213: -5747910555181911947
+    second: boy_run_spritesheet_1
+  - first:
+      213: 970309205629886940
+    second: boy_run_spritesheet_2
+  - first:
+      213: -3119591221830871124
+    second: boy_run_spritesheet_3
+  - first:
+      213: -1749575976618261506
+    second: boy_run_spritesheet_4
+  - first:
+      213: -6730696412097396335
+    second: boy_run_spritesheet_5
+  - first:
+      213: 1325636733652653012
+    second: boy_run_spritesheet_6
+  - first:
+      213: -3116318371911088096
+    second: boy_run_spritesheet_7
+  - first:
+      213: 1701802445119345245
+    second: boy_run_spritesheet_8
+  - first:
+      213: -1844900997218610412
+    second: boy_run_spritesheet_9
+  - first:
+      213: 2655647604742612410
+    second: boy_run_spritesheet_10
+  - first:
+      213: 2734588182118404872
+    second: boy_run_spritesheet_11
+  - first:
+      213: 6150995793100559584
+    second: boy_run_spritesheet_12
+  - first:
+      213: -1177085026420630986
+    second: boy_run_spritesheet_13
+  - first:
+      213: 2892655696493697948
+    second: boy_run_spritesheet_14
+  - first:
+      213: -9128786036832967732
+    second: boy_run_spritesheet_0
+  - first:
+      213: -6363631648796353419
+    second: boy_run_spritesheet_1
+  - first:
+      213: 330584302273246536
+    second: boy_run_spritesheet_2
+  - first:
+      213: 4107906080148421183
+    second: boy_run_spritesheet_3
+  - first:
+      213: 2010729562513074239
+    second: boy_run_spritesheet_4
+  - first:
+      213: -8042303427752219375
+    second: boy_run_spritesheet_5
+  - first:
+      213: 5333777838305477426
+    second: boy_run_spritesheet_6
+  - first:
+      213: -5966014691112585482
+    second: boy_run_spritesheet_7
+  - first:
+      213: -7083948571389506836
+    second: boy_run_spritesheet_8
+  - first:
+      213: -4154268005768100965
+    second: boy_run_spritesheet_9
+  - first:
+      213: -6137948176766057683
+    second: boy_run_spritesheet_10
+  - first:
+      213: -6517156651667326275
+    second: boy_run_spritesheet_11
+  - first:
+      213: -4359551810689606027
+    second: boy_run_spritesheet_12
+  - first:
+      213: -4160631603684657897
+    second: boy_run_spritesheet_13
+  - first:
+      213: 9213268405560795263
+    second: boy_run_spritesheet_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy_run_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2317
+        width: 286
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc366044779005180800000000000000
+      internalID: -9128786036832967732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2320
+        width: 289
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5f0c3bb6dfa7a0800000000000000
+      internalID: -6363631648796353419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2332
+        width: 305
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8453151eba8769400800000000000000
+      internalID: 330584302273246536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1774
+        width: 320
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af9e5b0d6320930800000000000000
+      internalID: 4107906080148421183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1771
+        width: 325
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38e7f042eb87eb10800000000000000
+      internalID: 2010729562513074239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1763
+        width: 309
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2ce474aff36090800000000000000
+      internalID: -8042303427752219375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1193
+        width: 297
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2338c033fa2650a40800000000000000
+      internalID: 5333777838305477426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1189
+        width: 288
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f87b6f35743da0800000000000000
+      internalID: -5966014691112585482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1188
+        width: 288
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea41338e42c0bd90800000000000000
+      internalID: -7083948571389506836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 630
+        width: 293
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b930c6e42431956c0800000000000000
+      internalID: -4154268005768100965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 646
+        width: 308
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d234a1a47a0a1daa0800000000000000
+      internalID: -6137948176766057683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 658
+        width: 316
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7bcffd886e85a0800000000000000
+      internalID: -6517156651667326275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 85
+        width: 310
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e5fefd9b2cf73c0800000000000000
+      internalID: -4359551810689606027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 72
+        width: 300
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715bc15b9977246c0800000000000000
+      internalID: -4160631603684657897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_run_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 64
+        width: 290
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70e7c50dca1cdf70800000000000000
+      internalID: 9213268405560795263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

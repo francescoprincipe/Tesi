@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: a452c4c6fde598a46b0b0c40635b685a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3818501954749040506
+    second: girl_jump_spritesheet_0
+  - first:
+      213: -8334282242242318284
+    second: girl_jump_spritesheet_1
+  - first:
+      213: -7479233700566337159
+    second: girl_jump_spritesheet_2
+  - first:
+      213: -8207831728570590999
+    second: girl_jump_spritesheet_3
+  - first:
+      213: 8122626507194379902
+    second: girl_jump_spritesheet_4
+  - first:
+      213: 8234989059069900656
+    second: girl_jump_spritesheet_5
+  - first:
+      213: -4093612755056351521
+    second: girl_jump_spritesheet_6
+  - first:
+      213: 3328341276839599521
+    second: girl_jump_spritesheet_7
+  - first:
+      213: 3822911470703266475
+    second: girl_jump_spritesheet_8
+  - first:
+      213: 3511383142678592983
+    second: girl_jump_spritesheet_9
+  - first:
+      213: -805124784334139600
+    second: girl_jump_spritesheet_10
+  - first:
+      213: -7564876258693269636
+    second: girl_jump_spritesheet_11
+  - first:
+      213: -3595282953887206786
+    second: girl_jump_spritesheet_12
+  - first:
+      213: -4530511964311519349
+    second: girl_jump_spritesheet_13
+  - first:
+      213: 1634590128697525930
+    second: girl_jump_spritesheet_14
+  - first:
+      213: 6203312673546760881
+    second: girl_jump_spritesheet_15
+  - first:
+      213: 943583568060532275
+    second: girl_jump_spritesheet_16
+  - first:
+      213: 2261712582119017608
+    second: girl_jump_spritesheet_17
+  - first:
+      213: 4685794264411548322
+    second: girl_jump_spritesheet_18
+  - first:
+      213: -3755185112518311303
+    second: girl_jump_spritesheet_19
+  - first:
+      213: 8943057879187766317
+    second: girl_jump_spritesheet_20
+  - first:
+      213: 8252815016170405955
+    second: girl_jump_spritesheet_21
+  - first:
+      213: 7045885202532334714
+    second: girl_jump_spritesheet_22
+  - first:
+      213: -352290446228926463
+    second: girl_jump_spritesheet_23
+  - first:
+      213: -837684208940404642
+    second: girl_jump_spritesheet_24
+  - first:
+      213: -7813064092718056351
+    second: girl_jump_spritesheet_25
+  - first:
+      213: 6589531994934127900
+    second: girl_jump_spritesheet_26
+  - first:
+      213: -8833429953257004589
+    second: girl_jump_spritesheet_27
+  - first:
+      213: -2963029052163368447
+    second: girl_jump_spritesheet_28
+  - first:
+      213: 6417429600088375
+    second: girl_jump_spritesheet_29
+  - first:
+      213: 5985889129090138330
+    second: girl_jump_spritesheet_0
+  - first:
+      213: -7593712816083109590
+    second: girl_jump_spritesheet_1
+  - first:
+      213: 909593227897502879
+    second: girl_jump_spritesheet_2
+  - first:
+      213: -1987796023038384945
+    second: girl_jump_spritesheet_3
+  - first:
+      213: -337588050090413633
+    second: girl_jump_spritesheet_4
+  - first:
+      213: 7108933241482593142
+    second: girl_jump_spritesheet_5
+  - first:
+      213: -8770375104567479170
+    second: girl_jump_spritesheet_6
+  - first:
+      213: 3096584087356303943
+    second: girl_jump_spritesheet_7
+  - first:
+      213: -5943445531614772122
+    second: girl_jump_spritesheet_8
+  - first:
+      213: 5952293433728412914
+    second: girl_jump_spritesheet_9
+  - first:
+      213: 5355650848455703790
+    second: girl_jump_spritesheet_10
+  - first:
+      213: -1493182183508313283
+    second: girl_jump_spritesheet_11
+  - first:
+      213: -2056456510598947141
+    second: girl_jump_spritesheet_12
+  - first:
+      213: 2551883598861879585
+    second: girl_jump_spritesheet_13
+  - first:
+      213: 5239945780663710004
+    second: girl_jump_spritesheet_14
+  - first:
+      213: 2231173584803098586
+    second: girl_jump_spritesheet_15
+  - first:
+      213: 5570625122733057807
+    second: girl_jump_spritesheet_16
+  - first:
+      213: 524371797182609812
+    second: girl_jump_spritesheet_17
+  - first:
+      213: -6452938177250326836
+    second: girl_jump_spritesheet_18
+  - first:
+      213: -7533942377215307892
+    second: girl_jump_spritesheet_19
+  - first:
+      213: 1590942591590022033
+    second: girl_jump_spritesheet_20
+  - first:
+      213: -6205078699932532737
+    second: girl_jump_spritesheet_21
+  - first:
+      213: -6696526321935311166
+    second: girl_jump_spritesheet_22
+  - first:
+      213: 3529527352335372220
+    second: girl_jump_spritesheet_23
+  - first:
+      213: -4050589502922392275
+    second: girl_jump_spritesheet_24
+  - first:
+      213: -2494678673441741398
+    second: girl_jump_spritesheet_25
+  - first:
+      213: 4704554510904354325
+    second: girl_jump_spritesheet_26
+  - first:
+      213: -6369604029767706649
+    second: girl_jump_spritesheet_27
+  - first:
+      213: -5266232628605643812
+    second: girl_jump_spritesheet_28
+  - first:
+      213: 6278918947778947282
+    second: girl_jump_spritesheet_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3186
+        width: 321
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad04a44c276221350800000000000000
+      internalID: 5985889129090138330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 3181
+        width: 321
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f80f4d66bd9690800000000000000
+      internalID: -7593712816083109590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 3181
+        width: 319
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c7ee6b8368f9c00800000000000000
+      internalID: 909593227897502879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 3185
+        width: 316
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4ecd08c0ee964e0800000000000000
+      internalID: -1987796023038384945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2739
+        width: 325
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1b1f10575a05bf0800000000000000
+      internalID: -337588050090413633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2738
+        width: 327
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673498e4e1108a260800000000000000
+      internalID: 7108933241482593142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2737
+        width: 332
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7473515f4e594680800000000000000
+      internalID: -8770375104567479170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2737
+        width: 334
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aefff22d649fa20800000000000000
+      internalID: 3096584087356303943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2283
+        width: 337
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664083a57c3a48da0800000000000000
+      internalID: -5943445531614772122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 2282
+        width: 339
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fca544675bca9250800000000000000
+      internalID: 5952293433728412914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2282
+        width: 344
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecb83b3218135a40800000000000000
+      internalID: 5355650848455703790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2282
+        width: 346
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7b0f17b6274be0800000000000000
+      internalID: -1493182183508313283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1828
+        width: 349
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbed5bdf2bff573e0800000000000000
+      internalID: -2056456510598947141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1828
+        width: 348
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ce4adc9c1a6320800000000000000
+      internalID: 2551883598861879585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1829
+        width: 346
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43174c2dce608b840800000000000000
+      internalID: 5239945780663710004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1829
+        width: 346
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf6c6add88b6fe10800000000000000
+      internalID: 2231173584803098586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1374
+        width: 346
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07ee51e806de4d40800000000000000
+      internalID: 5570625122733057807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1372
+        width: 346
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4997d4d0f51f64700800000000000000
+      internalID: 524371797182609812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1370
+        width: 348
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6007bbaee8276a0800000000000000
+      internalID: -6452938177250326836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1370
+        width: 349
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fc1df035f027790800000000000000
+      internalID: -7533942377215307892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 918
+        width: 350
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b33cd9bd9241610800000000000000
+      internalID: 1590942591590022033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 916
+        width: 347
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffbd2f5cc123e9a0800000000000000
+      internalID: -6205078699932532737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 914
+        width: 346
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce1ef73ac82113a0800000000000000
+      internalID: -6696526321935311166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 912
+        width: 345
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf89fc3d666bf030800000000000000
+      internalID: 3529527352335372220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 457
+        width: 344
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d726bde4a69c7c0800000000000000
+      internalID: -4050589502922392275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 457
+        width: 344
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa523c0c6fe116dd0800000000000000
+      internalID: -2494678673441741398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 455
+        width: 341
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5166ae0e66fe94140800000000000000
+      internalID: 4704554510904354325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 455
+        width: 332
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79ccde1ee9a97a0800000000000000
+      internalID: -6369604029767706649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6
+        width: 321
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3936373559ae6b0800000000000000
+      internalID: -5266232628605643812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_jump_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 4
+        width: 323
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d865df0483332750800000000000000
+      internalID: 6278918947778947282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

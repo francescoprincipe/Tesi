@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 5ad43861f5d1b6e499d0f18f52aebb4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4302182125271299095
+    second: girl_idle_spritesheet_0
+  - first:
+      213: 1660111933623034098
+    second: girl_idle_spritesheet_1
+  - first:
+      213: 2343404815119134450
+    second: girl_idle_spritesheet_2
+  - first:
+      213: -1954720989193627481
+    second: girl_idle_spritesheet_3
+  - first:
+      213: -6403130202010067115
+    second: girl_idle_spritesheet_4
+  - first:
+      213: -1085760895620541052
+    second: girl_idle_spritesheet_5
+  - first:
+      213: -8452196410250183562
+    second: girl_idle_spritesheet_6
+  - first:
+      213: 4796774788337327311
+    second: girl_idle_spritesheet_7
+  - first:
+      213: 5066663439996507040
+    second: girl_idle_spritesheet_8
+  - first:
+      213: 1809045260702170356
+    second: girl_idle_spritesheet_9
+  - first:
+      213: 6871427558615096216
+    second: girl_idle_spritesheet_10
+  - first:
+      213: -8721684537102340676
+    second: girl_idle_spritesheet_11
+  - first:
+      213: -7481036399084134729
+    second: girl_idle_spritesheet_12
+  - first:
+      213: 8505506718337342703
+    second: girl_idle_spritesheet_13
+  - first:
+      213: 7076185868204898852
+    second: girl_idle_spritesheet_14
+  - first:
+      213: 6917936543104222643
+    second: girl_idle_spritesheet_15
+  - first:
+      213: 260667583084956541
+    second: girl_idle_spritesheet_0
+  - first:
+      213: 8436900972305424719
+    second: girl_idle_spritesheet_1
+  - first:
+      213: -3991797904466023067
+    second: girl_idle_spritesheet_2
+  - first:
+      213: -4997100483037625738
+    second: girl_idle_spritesheet_3
+  - first:
+      213: 6221246429533015377
+    second: girl_idle_spritesheet_4
+  - first:
+      213: -6906019126625625176
+    second: girl_idle_spritesheet_5
+  - first:
+      213: -3213608247511209432
+    second: girl_idle_spritesheet_6
+  - first:
+      213: -7346924264320147023
+    second: girl_idle_spritesheet_7
+  - first:
+      213: 5746069333364443234
+    second: girl_idle_spritesheet_8
+  - first:
+      213: -5363471434186382745
+    second: girl_idle_spritesheet_9
+  - first:
+      213: -6040565909047525095
+    second: girl_idle_spritesheet_10
+  - first:
+      213: -1839490121192625590
+    second: girl_idle_spritesheet_11
+  - first:
+      213: -8324335555775963729
+    second: girl_idle_spritesheet_12
+  - first:
+      213: -5919366867085125679
+    second: girl_idle_spritesheet_13
+  - first:
+      213: 4601955882570863154
+    second: girl_idle_spritesheet_14
+  - first:
+      213: 2653437507022609409
+    second: girl_idle_spritesheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3177
+        width: 289
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b0d3629c31e9300800000000000000
+      internalID: 260667583084956541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3178
+        width: 297
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41a963dbb4e51570800000000000000
+      internalID: 8436900972305424719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2723
+        width: 306
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d672194f84a98c0800000000000000
+      internalID: -3991797904466023067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2724
+        width: 312
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6720c91269bb6aab0800000000000000
+      internalID: -4997100483037625738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2269
+        width: 310
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d8b748aae465650800000000000000
+      internalID: 6221246429533015377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2270
+        width: 308
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab1d69a134e820a0800000000000000
+      internalID: -6906019126625625176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1815
+        width: 306
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a24d74358f663d0800000000000000
+      internalID: -3213608247511209432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1816
+        width: 305
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1ef79ae4b7a0a90800000000000000
+      internalID: -7346924264320147023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1361
+        width: 303
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26804fd5d932ebf40800000000000000
+      internalID: 5746069333364443234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1362
+        width: 300
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ad52c52f1195b0800000000000000
+      internalID: -5363471434186382745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 907
+        width: 298
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91143ec5f499b2ca0800000000000000
+      internalID: -6040565909047525095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 908
+        width: 296
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a29761b71d876e0800000000000000
+      internalID: -1839490121192625590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 453
+        width: 294
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadd1de8ae40a7c80800000000000000
+      internalID: -8324335555775963729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 454
+        width: 292
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d79c20523f2adda0800000000000000
+      internalID: -5919366867085125679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 292
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d7a43e7e6ddf30800000000000000
+      internalID: 4601955882570863154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_idle_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 290
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cd7c7aa57e2d420800000000000000
+      internalID: 2653437507022609409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
