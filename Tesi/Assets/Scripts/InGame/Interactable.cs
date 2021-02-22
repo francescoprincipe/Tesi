@@ -34,7 +34,7 @@ public abstract class Interactable : MonoBehaviour
     {
 
 
-        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider) && other.gameObject.layer == 0)
+        if (other.tag == "Player"  && other.gameObject.layer == 0)
         {
             other.GetComponent<DisplayInteractable>().DisplayPlayerUI(true, highlight, dialogueBox, dialogueManager);
         }
@@ -44,7 +44,7 @@ public abstract class Interactable : MonoBehaviour
     public virtual void OnTriggerExit(Collider other)
     {
 
-        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider) && other.gameObject.layer == 0)
+        if (other.tag == "Player"  && other.gameObject.layer == 0)
         {
             other.GetComponent<DisplayInteractable>().DisplayPlayerUI(false, highlight, dialogueBox, dialogueManager);
         }

@@ -21,7 +21,7 @@ public class Minigame : Interactable
 
     public override void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && other.GetType() == typeof(SphereCollider))
+        if (other.tag == "Player")
         {
             other.GetComponent<PlayerController>().CheckQuest(itemRequired, ref questCompleted);
             dialogueManager.GetComponent<DialogueManager>().SetDialogue(questCompleted);

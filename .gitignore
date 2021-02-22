@@ -59,7 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 #Other
-*.meta
 **/Build/
 **/Photon/
 **/TextMesh Pro/
