@@ -25,7 +25,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void QuickStart(bool offline)
     {
         SetOfflineMode(offline);
-        PhotonNetwork.JoinRandomRoom();
+        if (!offline)
+            PhotonNetwork.JoinRandomRoom();
+        else
+            CreateRoom();
         Debug.Log("Quick start");
     }
 

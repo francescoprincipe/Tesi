@@ -181,14 +181,14 @@ public class PlayerController : MonoBehaviour, IPunObservable
             stream.SendNext(direction);
             //Debug.Log("Sent direction " + myPV.ViewID);
             stream.SendNext(sentenceNumber);
-            Debug.Log("Sent sentence number " + sentenceNumber +" "+ myPV.ViewID );
+            //Debug.Log("Sent sentence number " + sentenceNumber +" "+ myPV.ViewID );
         }
         else
         {
             this.direction = (float)stream.ReceiveNext();
             //Debug.Log("Received direction " + myPV.ViewID);
             this.sentenceNumber = (int)stream.ReceiveNext();
-            Debug.Log("Received sentence number " + sentenceNumber + " " + myPV.ViewID);
+            //Debug.Log("Received sentence number " + sentenceNumber + " " + myPV.ViewID);
         }
     }
 
@@ -262,6 +262,8 @@ public class PlayerController : MonoBehaviour, IPunObservable
     public void SetSentence(int number)
     {
         sentenceNumber = number - 1;
+        chatMenuEnabled = !chatMenuEnabled;
+        myChatMenu.SetActive(chatMenuEnabled);
     }
 
     public IEnumerator ShowSentence()

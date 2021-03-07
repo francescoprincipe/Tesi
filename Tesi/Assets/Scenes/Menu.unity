@@ -1440,7 +1440,7 @@ PrefabInstance:
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
@@ -1476,7 +1476,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sounds.Array.data[2].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 9c65e9e964fe92142ac4a2f637575381, type: 3}
+      objectReference: {fileID: 8300000, guid: ecd2ad8c70fed0e44ae85911cc15110b, type: 3}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
       propertyPath: sounds.Array.data[2].loop
@@ -1486,6 +1486,21 @@ PrefabInstance:
         type: 3}
       propertyPath: sounds.Array.data[2].name
       value: EavesdropMinigameSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
+        type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a03a3ccdb2b793f4db4afb445e528ba6, type: 3}
+    - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
+        type: 3}
+      propertyPath: sounds.Array.data[3].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
+        type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: BeepSound
       objectReference: {fileID: 0}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
@@ -1504,18 +1519,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
+        type: 3}
       propertyPath: sounds.Array.data[0].volume
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
       propertyPath: sounds.Array.data[1].volume
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}
       propertyPath: sounds.Array.data[2].volume
-      value: 0.25
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443730932064666726, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
+        type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7596457579916031582, guid: 011cc35b870fb4a4c9a1dd804b0adb17,
         type: 3}

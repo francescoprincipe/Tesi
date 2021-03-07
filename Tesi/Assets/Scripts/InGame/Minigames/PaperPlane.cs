@@ -103,6 +103,8 @@ public class PaperPlane : MonoBehaviour
         timeElapsed = 0;
         this.transform.position = startingPositionObject.transform.position;
         this.transform.rotation = Quaternion.identity;
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = 0f;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

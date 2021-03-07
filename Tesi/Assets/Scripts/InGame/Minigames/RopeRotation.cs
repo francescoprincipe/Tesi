@@ -73,6 +73,7 @@ public class RopeRotation : MonoBehaviour
             jumpCounter += 1;
             spriteRenderer.sortingOrder = 0;
             counterText.text = "NUMERO DI SALTI: " + jumpCounter;
+            AudioManager.Instance.PlaySound("BeepSound");
             if (jumpCounter > record)
             {
                 record = jumpCounter;

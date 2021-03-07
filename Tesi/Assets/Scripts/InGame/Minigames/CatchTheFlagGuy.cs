@@ -16,9 +16,13 @@ public class CatchTheFlagGuy : MonoBehaviour
 
     public float maxSpeed;
     private Rigidbody rb;
+    private Animator myAnim;
 
     private bool endGame = false;
     private bool startGame = false;
+
+    [SerializeField]
+    bool girl;
 
     [SerializeField]
     private bool human;
@@ -31,6 +35,10 @@ public class CatchTheFlagGuy : MonoBehaviour
 
     private void Awake()
     {
+        if ((OptionsManager.Instance.characterSelected == 0 && girl && human) || (OptionsManager.Instance.characterSelected == 1 && !girl && human))
+            this.gameObject.SetActive(false);
+
+        myAnim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         if (human)
             RUN.performed += Run;
@@ -65,6 +73,7 @@ public class CatchTheFlagGuy : MonoBehaviour
             rb.velocity = Vector3.ClampMagnitude(rb.velocity, 0);
         }
 
+        myAnim.SetFloat("Speed", rb.velocity.magnitude);
 
     }
     void Run(InputAction.CallbackContext context)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using JetBrains.Annotations;
+using Photon.Realtime;
 
 public class Flag : MonoBehaviour
 {
@@ -17,9 +18,11 @@ public class Flag : MonoBehaviour
 
     [SerializeField]
     private GameObject endPanel;
-
-    [SerializeField]
     private GameObject player;
+    [SerializeField]
+    private GameObject playerMale;
+    [SerializeField]
+    private GameObject playerFemale;
     [SerializeField]
     private GameObject opponent;
 
@@ -35,8 +38,12 @@ public class Flag : MonoBehaviour
     {
         scoreText = scoreTextObject.GetComponent<TextMeshProUGUI>();
         opponentScoreText = opponentScoreTextObject.GetComponent<TextMeshProUGUI>();
-        playerComponent = player.GetComponent<CatchTheFlagGuy>();
         opponentComponent = opponent.GetComponent<CatchTheFlagGuy>();
+        if (OptionsManager.Instance.characterSelected == 0)
+            player = playerMale;
+        else
+            player = playerFemale;
+        playerComponent = player.GetComponent<CatchTheFlagGuy>();
     }
 
     private void OnTriggerEnter(Collider other)

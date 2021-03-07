@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -100,9 +101,16 @@ public class DrawManager : MonoBehaviour
 
     void AddPoint(Vector2 pointPos)
     {
-        currentLineRenderer.positionCount++;
-        int positionIndex = currentLineRenderer.positionCount - 1;
-        currentLineRenderer.SetPosition(positionIndex, pointPos);
+        try
+        {
+            currentLineRenderer.positionCount++;
+            int positionIndex = currentLineRenderer.positionCount - 1;
+            currentLineRenderer.SetPosition(positionIndex, pointPos);
+        }
+        catch(NullReferenceException e)
+        {
+            Debug.Log("Nessun line renderer trovaot");
+        }
     }
 
     private void OnDraw(InputAction.CallbackContext context)

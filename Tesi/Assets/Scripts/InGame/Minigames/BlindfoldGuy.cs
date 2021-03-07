@@ -30,6 +30,9 @@ public class BlindfoldGuy : MonoBehaviour
     [SerializeField] private GameObject counterTextObject;
     private TextMeshProUGUI counterText;
 
+    [SerializeField]
+    bool girl;
+
     private void OnEnable()
     {
         WASD.Enable();
@@ -45,6 +48,8 @@ public class BlindfoldGuy : MonoBehaviour
 
     private void Awake()
     {
+        if ((OptionsManager.Instance.characterSelected == 0 && girl) || (OptionsManager.Instance.characterSelected == 1 && !girl))
+            this.gameObject.SetActive(false);
         myRB = GetComponent<Rigidbody>();
         myAvatar = transform.GetChild(0); //Takes the Sprite transform
         myAnim = GetComponent<Animator>();
@@ -104,7 +109,7 @@ public class BlindfoldGuy : MonoBehaviour
                 targetsFound.Add(other.gameObject);
                 targetsCounter += 1;
                 counterText.text = "AMICI TROVATI: " + targetsCounter.ToString();
-
+                AudioManager.Instance.PlaySound("BeepSound");
                 if (targetsFound.Count == targets.Count)
                 {
                     endGame = true;

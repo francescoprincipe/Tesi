@@ -12,7 +12,9 @@ public class Ball : MonoBehaviour
     private bool endGame = false;
     private bool startGame = false;
 
- 
+    [SerializeField] private GameObject shootingGuy;
+    [SerializeField] private GameObject shootingGirl;
+
     [SerializeField] private GameObject startingPositionObject;
     [SerializeField] private GameObject[] startingTargetPositionObject;
     [SerializeField] private GameObject target;
@@ -51,6 +53,11 @@ public class Ball : MonoBehaviour
 
     private void Awake()
     {
+        if (OptionsManager.Instance.characterSelected == 0)
+            shootingGirl.SetActive(false);
+        else
+            shootingGuy.SetActive(false);
+
         THROW.performed += OnThrow;
         THROW.canceled += OnThrow;
         throwButton = false;

@@ -8,6 +8,9 @@ public class JumpingGuy : MonoBehaviour
     [SerializeField] 
     InputAction JUMP;
 
+    [SerializeField]
+    bool girl;
+
     public Vector3 jumpVector = new Vector3(0, 1f, 0);
 
     [SerializeField]
@@ -22,6 +25,8 @@ public class JumpingGuy : MonoBehaviour
 
     private void Awake()
     {
+        if ((OptionsManager.Instance.characterSelected == 0 && girl) || (OptionsManager.Instance.characterSelected == 1 && !girl))
+            this.gameObject.SetActive(false);
         rb = GetComponent<Rigidbody>();
         JUMP.performed += Jump;
     }

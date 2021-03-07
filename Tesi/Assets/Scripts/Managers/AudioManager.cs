@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
@@ -30,17 +31,17 @@ public class Sound
 
     public void Play()
     {
-        source.volume = volume * (1 + Random.Range(-randomVolume / 2f, randomVolume / 2f));
-        source.pitch = pitch * (1 + Random.Range(-randomPitch / 2f, randomPitch / 2f));
+        source.volume = volume * (1 + UnityEngine.Random.Range(-randomVolume / 2f, randomVolume / 2f));
+        source.pitch = pitch * (1 + UnityEngine.Random.Range(-randomPitch / 2f, randomPitch / 2f));
         source.Play();
     }
 
     public void PlayBackground()
     {
-        if (!source.isPlaying)
+        if (source != null && !source.isPlaying )
         {
-            source.volume = volume * (1 + Random.Range(-randomVolume / 2f, randomVolume / 2f));
-            source.pitch = pitch * (1 + Random.Range(-randomPitch / 2f, randomPitch / 2f));
+            source.volume = volume * (1 + UnityEngine.Random.Range(-randomVolume / 2f, randomVolume / 2f));
+            source.pitch = pitch * (1 + UnityEngine.Random.Range(-randomPitch / 2f, randomPitch / 2f));
             source.Play();
         }
     }
@@ -61,8 +62,9 @@ public class Sound
     }
 
     public void SetVolume(float newVolume)
-    {
-        source.volume = newVolume * (1 + Random.Range(-randomVolume / 2f, randomVolume / 2f));
+    { 
+        if(source != null)
+        source.volume = newVolume * (1 + UnityEngine.Random.Range(-randomVolume / 2f, randomVolume / 2f));
     }
 
     public bool IsPlaying()
@@ -228,19 +230,36 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if(scene.name == "Menu")
-        {
-            StopSound(gameSoundName);
-            PlayBackgroundSound(menuSoundName);
-            SetSoundVolume(menuSoundName, masterVolume);
-        }
 
-        if (scene.name == "Game")
-        {
-            StopSound(menuSoundName);
-            PlayBackgroundSound(gameSoundName);
-            SetSoundVolume(gameSoundName, masterVolume);
-        }
+            if (scene.name == "Menu")
+            {
+            try
+            {
+                StopSound(gameSoundName);
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Nessun suono da stoppare trovato");
+            }
+                PlayBackgroundSound(menuSoundName);
+                SetSoundVolume(menuSoundName, masterVolume);
+            }
+
+            if (scene.name == "Game")
+            {
+            try
+            {
+                StopSound(menuSoundName);
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Nessun suono da stoppare trovato");
+            }
+                PlayBackgroundSound(gameSoundName);
+                SetSoundVolume(gameSoundName, masterVolume);
+            }
+        
+
     }
 }
 
