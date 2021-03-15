@@ -242,11 +242,15 @@ public class PlayerController : MonoBehaviour, IPunObservable
 
     void Pause(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Performed && myPV.IsMine)
+        if (context.phase == InputActionPhase.Performed)
         {
-            myPause.GetComponent<PauseMenu>().TogglePause();
-
+            PerformPause();
         }
+    }
+    public void PerformPause()
+    {
+        if (myPV.IsMine)
+            myPause.GetComponent<PauseMenu>().TogglePause();
     }
 
     void ToggleChatMenu(InputAction.CallbackContext context)

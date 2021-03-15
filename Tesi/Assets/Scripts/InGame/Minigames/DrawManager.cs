@@ -109,7 +109,7 @@ public class DrawManager : MonoBehaviour
         }
         catch(NullReferenceException e)
         {
-            Debug.Log("Nessun line renderer trovaot");
+            Debug.Log("Nessun line renderer trovato");
         }
     }
 
