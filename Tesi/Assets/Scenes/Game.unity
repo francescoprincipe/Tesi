@@ -943,7 +943,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 2e29a9099e04114459e2c856b62ac5e2,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -979,7 +979,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 2e29a9099e04114459e2c856b62ac5e2,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -1463,8 +1463,7 @@ SpriteRenderer:
   m_SortingLayerID: 890517707
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5766804049192633424, guid: 9ee7ca0b044a741449a732d96ebce577,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 11fb90997ee312440bdec6dd2631e783, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2167,7 +2166,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 2d944abe4fea83f42af554e54aac63ee,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -2203,7 +2202,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 2d944abe4fea83f42af554e54aac63ee,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -17100,8 +17099,7 @@ SpriteRenderer:
   m_SortingLayerID: 890517707
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5766804049192633424, guid: 9ee7ca0b044a741449a732d96ebce577,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 935a9ed61b7d87d49853b96b7e95a523, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -27477,8 +27475,7 @@ SpriteRenderer:
   m_SortingLayerID: 890517707
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5766804049192633424, guid: 9ee7ca0b044a741449a732d96ebce577,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56d4bea02a0eed14cad0a1dfee1f1140, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -29256,7 +29253,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: f063c2ed19b605c45a2c4a1f5e2960ad,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -29292,7 +29289,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: f063c2ed19b605c45a2c4a1f5e2960ad,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -30848,7 +30845,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 11fb90997ee312440bdec6dd2631e783,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -30889,7 +30886,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 11fb90997ee312440bdec6dd2631e783,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -39705,7 +39702,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 935a9ed61b7d87d49853b96b7e95a523,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -39741,7 +39738,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 935a9ed61b7d87d49853b96b7e95a523,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -40466,7 +40463,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 56d4bea02a0eed14cad0a1dfee1f1140,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -40502,7 +40499,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: 56d4bea02a0eed14cad0a1dfee1f1140,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -43103,7 +43100,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: ecd2226eb7e5803418f6912027635a29,
         type: 3}
     - target: {fileID: 4046916859509898962, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
@@ -43139,7 +43136,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4302182125271299095, guid: 5ad43861f5d1b6e499d0f18f52aebb4b,
+      objectReference: {fileID: 21300000, guid: ecd2226eb7e5803418f6912027635a29,
         type: 3}
     - target: {fileID: 6237135040421783366, guid: 88b96f1e1c2ccb04db17d3fb3722df6f,
         type: 3}
