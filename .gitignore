@@ -59,7 +59,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 #Other
-**/Build/
+**/Build*
+**/Temp/
 **/Photon/
 **/TextMesh Pro/
 **/Debug/
